@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.main {
+  flex: 1;
+}
+.sidebar {
+  width: 250px;
+  margin-left: 20px;
+}
+#searchInput {
+  padding: 5px;
+  width: 100%;
+}
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #cccccc;
+}
+#suggestions > div {
+  padding: 5px;
+  cursor: pointer;
+}
+#suggestions > div:hover {
+  background: #aaaaaa;
+}
+.img {
+  max-width: 200px;
+}
