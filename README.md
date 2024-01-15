@@ -8,3 +8,4 @@
 
 
 ### Используемое [API](https://www.themealdb.com/api.php)
+#### Поиск по названию блюда или ингредиенту (например, salmon, risotto)
