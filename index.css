@@ -21,11 +21,18 @@ body {
 .sidebar {
   width: 250px;
   margin-left: 20px;
+  background-color: aliceblue;
+
 }
 #searchInput {
   padding: 5px;
   width: 100%;
 }
+
+#searchHistory {
+  color: black;
+}
+
 .suggestions {
   position: absolute;
   top: 100%;
